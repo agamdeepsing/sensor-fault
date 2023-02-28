@@ -3,7 +3,7 @@ from setuptools import find_packages,setup
 from typing import List
 
 REQUIREMENT_FILENAME = "requirements.txt"
-HYPHEN_E_DOT = "e ."
+HYPHEN_E_DOT = "-e ."
 
 def get_requirements()->List[str]:
     with open(REQUIREMENT_FILENAME) as requirement_file:
