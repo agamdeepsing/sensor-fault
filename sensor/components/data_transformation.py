@@ -6,7 +6,7 @@ import os,sys
 import pandas as pd
 from sensor import utils
 import numpy as np
-from sklearn.preprocessing import Pipeline
+from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder
 from imblearn.combine import SMOTETomek
 from sklearn.impute import SimpleImputer
