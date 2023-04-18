@@ -1,5 +1,3 @@
-
-import os
 from sensor.entity.config_entity import TRANSFORMER_OBJECT_FILE_NAME,MODEL_FILE_NAME,TARGET_ENCODER_OBJECT_FILE_NAME
 from glob import glob
 from typing import Optional
@@ -89,15 +87,3 @@ class ModelResolver:
             return os.path.join(latest_dir,self.target_encoder_dir_name,TARGET_ENCODER_OBJECT_FILE_NAME)
         except Exception as e:
             raise e
-
-
-
-
-
-
-
-
-class Predictor:
-
-    def __init__(self,model_resolver:ModelResolver):
-        self.model_resolver=model_resolver
