@@ -21,5 +21,4 @@ sensor/components/model_trainer.py
 sensor/entity/__init__.py
 sensor/entity/artifact_entity.py
 sensor/entity/config_entity.py
-sensor/pipline/__init__.py
 sensor/pipline/training_pipeline.py
